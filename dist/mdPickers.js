@@ -1,4 +1,4 @@
-(function() {
+(function(moment, angular) {
 "use strict";
 /* global moment, angular */
 
@@ -973,4 +973,4 @@ module.directive("mdpTimePicker", ["$mdpTimePicker", "$timeout", function($mdpTi
     }
 }]);
 
-})();
+})(moment, angular);
