@@ -38,10 +38,16 @@
   "jspm": {
     "main": "dist/mdPickers.js",
     "meta": {
-      "deps": ["angular", "moment"],
-      "globals": {
-        "angular": "angular",
-        "moment": "moment"
+      "dist/mdPickers.js": {
+        "format": "global",
+        "deps": [
+          "angular",
+          "moment"
+        ],
+        "globals": {
+          "angular": "angular",
+          "moment": "moment"
+        }
       }
     }
   }
